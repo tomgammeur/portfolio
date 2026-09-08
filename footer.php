@@ -47,7 +47,7 @@
 <script>
     setTimeout(function() {
         document.getElementById("don-btn").classList.add("show");
-    }, 4000);
+    }, 30000);
     const donBtn = document.getElementById("don-btn");
     const donationOverlay = document.getElementById("donation-overlay");
     const closeDonation = document.getElementById("close-donation");
