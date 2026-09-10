@@ -22,8 +22,8 @@ require "design.php";
 <p>Fait en PHP avec l'aide de MySQL</p>
 <br><br><br><br>
 <h2>Etat du projet</h2>
-    <div class="en-cours">
-        <h1>En cours</h1>
+    <div class="fini">
+        <h1>Terminé</h1>
     </div>
 <br><br><br><br>
     <h2>Languages</h2>
