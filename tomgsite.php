@@ -44,7 +44,7 @@ require "design.php";
     </div>
   </div>
   <div class="skill">
-    <img src="photos/CSS.png" alt="Java">
+    <img src="photos/css.png" alt="Java">
     <div class="skill-content">
       <div class="skill-header">
         <span class="title">CSS</span>
