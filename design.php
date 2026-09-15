@@ -427,15 +427,40 @@ h1 {
     flex-wrap: wrap;
 }
 
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 135deg;
+    inherits: false;
+}
+
 .academic-card {
-    background: linear-gradient(135deg, #1a2a6c, #6a00ff);
+    --angle: 135deg;
+
+    background: linear-gradient(
+        var(--angle),
+        #1a2a6c,
+        #6a00ff
+    );
+
     color: white;
     padding: 25px;
     border-radius: 20px;
     width: 220px;
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s;
+    animation: tourner-gradient 12s linear infinite;
 }
+
+@keyframes tourner-gradient {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg;
+    }
+}
+
 
 .academic-card:hover {
     transform: translateY(-8px);
