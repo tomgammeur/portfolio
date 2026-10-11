@@ -33,10 +33,10 @@ require "design.php";
     <div class="skill-content">
       <div class="skill-header">
         <span class="title">CSS</span>
-        <span class="percent">51,8 %</span>
+        <span class="percent">46,5 %</span>
       </div>
       <div class="bar">
-        <div class="progress" style="width: 51.8%;"></div>
+        <div class="progress" style="width: 46.5%;"></div>
       </div>
     </div>
   </div>
@@ -45,10 +45,10 @@ require "design.php";
     <div class="skill-content">
       <div class="skill-header">
         <span class="title">HTML</span>
-        <span class="percent">29,7 %</span>
+        <span class="percent">41,7 %</span>
       </div>
       <div class="bar">
-        <div class="progress" style="width: 29.7%;"></div>
+        <div class="progress" style="width: 41.7%;"></div>
       </div>
     </div>
   </div>
@@ -57,10 +57,10 @@ require "design.php";
     <div class="skill-content">
       <div class="skill-header">
         <span class="title">JavaScript</span>
-        <span class="percent">18,5 %</span>
+        <span class="percent">11,8 %</span>
       </div>
       <div class="bar">
-        <div class="progress" style="width: 18.5%;"></div>
+        <div class="progress" style="width: 11.8%;"></div>
       </div>
     </div>
   </div>
