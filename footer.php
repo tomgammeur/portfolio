@@ -47,23 +47,17 @@
 <script>
     setTimeout(function() {
         document.getElementById("don-btn").classList.add("show");
-    }, 30000);
+    }, 60000);
     const donBtn = document.getElementById("don-btn");
     const donationOverlay = document.getElementById("donation-overlay");
     const closeDonation = document.getElementById("close-donation");
-
-    // Ouvrir la fenêtre
     donBtn.addEventListener("click", function(event) {
         event.preventDefault();
         donationOverlay.classList.add("active");
     });
-
-    // Fermer avec le X
     closeDonation.addEventListener("click", function() {
         donationOverlay.classList.remove("active");
     });
-
-    // Fermer en cliquant en dehors de la fenêtre
     donationOverlay.addEventListener("click", function(event) {
         if (event.target === donationOverlay) {
             donationOverlay.classList.remove("active");
